@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(assets/bg.png);
+    background-size: 100%;
+}
+.line{
+    border-left: 1px #fff solid;
+    margin-left: -14rem;
+    height: 3rem;
+    
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    background-color: black;
+    padding-bottom: 1rem;
+    padding-top: 1rem;  
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.list{
+    display: flex;
+    margin-left: -20rem;
+}
+.list-item{
+    list-style: none;
+    color: #fff;
+    margin-left: 4rem;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 1.2rem
+    
+}
+.hero-heading{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 8rem;
+    font-family: poppins;
+    text-align: center;
+    font-size: 6.4rem;
+    color: #fff;
+}
+.hero-description{
+    text-align: center;
+    font-family: poppins;
+    font-size: 2.4rem;
+    color: #fff;
+}
+.button-large{
+  margin-top: 4rem;
+  background-color: #BA0CC5;
+  color: #fff;
+  border: none;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 2.4rem;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-small{
+    background-color: #BA0CC5;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    padding-top: .8rem;
+    padding-bottom:.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #fff;
+
+}
